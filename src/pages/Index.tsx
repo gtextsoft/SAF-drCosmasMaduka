@@ -1,4 +1,3 @@
-
 import { Calendar, Mail, MapPin, Phone, ChevronDown, Star, Book, Briefcase, GraduationCap } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -64,9 +63,9 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#F1F0FB]">
       {/* Navigation */}
-      <nav className="fixed w-full bg-white/80 backdrop-blur-sm z-50 border-b">
+      <nav className="fixed w-full bg-[#F1F0FB]/80 backdrop-blur-sm z-50 border-b">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center h-16 space-x-8">
             {navItems.map((item) => (
@@ -87,7 +86,7 @@ const Index = () => {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-50 overflow-hidden pt-16">
+      <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-[#F1F0FB] to-[#E5DEFF] overflow-hidden pt-16">
         <div className="container mx-auto px-4 pt-20 pb-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -120,7 +119,7 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-white">
+      <section id="about" className="py-20 bg-[#F1F0FB]">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0 }}
@@ -152,7 +151,7 @@ const Index = () => {
       </section>
 
       {/* Journey Timeline */}
-      <section id="journey" className="py-20 bg-gray-50">
+      <section id="journey" className="py-20 bg-[#E5DEFF]">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0 }}
@@ -199,7 +198,7 @@ const Index = () => {
       </section>
 
       {/* Events Section */}
-      <section id="events" className="py-20 bg-white">
+      <section id="events" className="py-20 bg-[#F1F0FB]">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0 }}
@@ -246,7 +245,7 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-gray-50">
+      <section id="contact" className="py-20 bg-[#E5DEFF]">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0 }}
