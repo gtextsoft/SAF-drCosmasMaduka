@@ -65,7 +65,7 @@ const Index = () => {
               Featured Events
             </h2>
             <div className="grid gap-8 md:grid-cols-2">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100">
                 <div className="flex items-center mb-4">
                   <Calendar className="w-5 h-5 text-rich-gold mr-2" />
                   <span className="text-warm-gray">January 2025</span>
@@ -77,7 +77,7 @@ const Index = () => {
                   Keynote Address on "Evangelism: Solution to World Challenges"
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100">
                 <div className="flex items-center mb-4">
                   <Calendar className="w-5 h-5 text-rich-gold mr-2" />
                   <span className="text-warm-gray">Monthly</span>
@@ -109,8 +109,8 @@ const Index = () => {
             </h2>
             <div className="grid gap-8 md:grid-cols-2">
               <div className="space-y-6">
-                <div className="flex items-center">
-                  <Mail className="w-5 h-5 text-rich-gold mr-4" />
+                <div className="flex items-center group hover:bg-gray-50 p-4 rounded-lg transition-colors duration-300">
+                  <Mail className="w-5 h-5 text-rich-gold mr-4 group-hover:scale-110 transition-transform duration-300" />
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
                     <a href="mailto:officialcosmasmaduka@gmail.com" className="text-warm-gray hover:text-rich-black transition-colors">
@@ -118,32 +118,32 @@ const Index = () => {
                     </a>
                   </div>
                 </div>
-                <div className="flex items-center">
-                  <Phone className="w-5 h-5 text-rich-gold mr-4" />
+                <div className="flex items-center group hover:bg-gray-50 p-4 rounded-lg transition-colors duration-300">
+                  <Phone className="w-5 h-5 text-rich-gold mr-4 group-hover:scale-110 transition-transform duration-300" />
                   <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
                     <p className="text-warm-gray">+234 803 322 2770</p>
                     <p className="text-warm-gray">+1 (909) 706-5306</p>
                   </div>
                 </div>
-                <div className="flex items-center">
-                  <MapPin className="w-5 h-5 text-rich-gold mr-4" />
+                <div className="flex items-center group hover:bg-gray-50 p-4 rounded-lg transition-colors duration-300">
+                  <MapPin className="w-5 h-5 text-rich-gold mr-4 group-hover:scale-110 transition-transform duration-300" />
                   <div>
                     <h4 className="font-semibold mb-1">Location</h4>
                     <p className="text-warm-gray">Lagos, Nigeria</p>
                   </div>
                 </div>
               </div>
-              <div className="bg-gray-50 p-6 rounded-lg">
+              <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow duration-300">
                 <h3 className="font-playfair text-xl font-semibold mb-4">
                   Social Media
                 </h3>
                 <div className="space-y-3">
-                  <a href="https://twitter.com/drcosmasmaduka" className="block text-warm-gray hover:text-rich-black transition-colors">Twitter</a>
-                  <a href="https://instagram.com/cosmasmadukaofficial" className="block text-warm-gray hover:text-rich-black transition-colors">Instagram</a>
-                  <a href="https://linkedin.com/in/dr-cosmas-maduka" className="block text-warm-gray hover:text-rich-black transition-colors">LinkedIn</a>
-                  <a href="https://facebook.com/cosmasmaduka" className="block text-warm-gray hover:text-rich-black transition-colors">Facebook</a>
-                  <a href="https://youtube.com/@cosmasmadukaofficial" className="block text-warm-gray hover:text-rich-black transition-colors">YouTube</a>
+                  <a href="https://twitter.com/drcosmasmaduka" className="block text-warm-gray hover:text-rich-black transition-colors p-2 hover:bg-white rounded-md">Twitter</a>
+                  <a href="https://instagram.com/cosmasmadukaofficial" className="block text-warm-gray hover:text-rich-black transition-colors p-2 hover:bg-white rounded-md">Instagram</a>
+                  <a href="https://linkedin.com/in/dr-cosmas-maduka" className="block text-warm-gray hover:text-rich-black transition-colors p-2 hover:bg-white rounded-md">LinkedIn</a>
+                  <a href="https://facebook.com/cosmasmaduka" className="block text-warm-gray hover:text-rich-black transition-colors p-2 hover:bg-white rounded-md">Facebook</a>
+                  <a href="https://youtube.com/@cosmasmadukaofficial" className="block text-warm-gray hover:text-rich-black transition-colors p-2 hover:bg-white rounded-md">YouTube</a>
                 </div>
               </div>
             </div>
