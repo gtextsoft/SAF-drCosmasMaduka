@@ -1,3 +1,4 @@
+
 import { Calendar, Mail, MapPin, Phone, ChevronDown, Star, Book, Briefcase, GraduationCap } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -86,8 +87,19 @@ const Index = () => {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-[#F1F0FB] to-[#E5DEFF] overflow-hidden pt-16">
-        <div className="container mx-auto px-4 pt-20 pb-16">
+      <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage: "url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            opacity: 0.1
+          }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#F1F0FB]/95 to-[#E5DEFF]/95 z-1" />
+        <div className="container mx-auto px-4 pt-20 pb-16 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -119,8 +131,19 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-[#F1F0FB]">
-        <div className="container mx-auto px-4">
+      <section id="about" className="py-20 bg-[#F1F0FB] relative">
+        {/* Background Pattern */}
+        <div 
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage: "url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            opacity: 0.05
+          }}
+        />
+        <div className="absolute inset-0 bg-[#F1F0FB]/95 z-1" />
+        <div className="container mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
