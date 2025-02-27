@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+
+import { Calendar, Mail, MapPin, Phone, ChevronDown, Star, Book, Briefcase, GraduationCap } from "lucide-react";
+import { motion } from "framer-motion";
+>>>>>>> 962fc9a22e8ccb02ff0e473397c25443e30a287b
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Calendar, ChevronDown, Mail, MapPin, Phone } from "lucide-react";
@@ -68,7 +74,24 @@ const Index = () => {
           className="absolute inset-0 w-full h-full object-cover opacity-40 transition-all duration-300 hover:opacity-50 shadow-2xl filter brightness-90 contrast-110 object-contain object-buttom object-fill"
         />
 
+<<<<<<< HEAD
         <div className="container mx-auto px-4 pt-20 pb-16">
+=======
+      {/* Hero Section */}
+      <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage: "url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            opacity: 0.1
+          }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#F1F0FB]/95 to-[#E5DEFF]/95 z-1" />
+        <div className="container mx-auto px-4 pt-20 pb-16 relative z-10">
+>>>>>>> 962fc9a22e8ccb02ff0e473397c25443e30a287b
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -109,8 +132,25 @@ const Index = () => {
         </div>
       </section>
 
+<<<<<<< HEAD
       <section id="about" className="py-20 bg-[#FF0000]/20 border-b-2 border-[#000080]/30 rounded-lg">
         <div className="container mx-auto px-4 rounded-lg border border-[#000080]/20">
+=======
+      {/* About Section */}
+      <section id="about" className="py-20 bg-[#F1F0FB] relative">
+        {/* Background Pattern */}
+        <div 
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage: "url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            opacity: 0.05
+          }}
+        />
+        <div className="absolute inset-0 bg-[#F1F0FB]/95 z-1" />
+        <div className="container mx-auto px-4 relative z-10">
+>>>>>>> 962fc9a22e8ccb02ff0e473397c25443e30a287b
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
