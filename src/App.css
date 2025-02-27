@@ -40,3 +40,124 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+
+  .logo {
+    height: 4em;
+    padding: 1em;
+  }
+
+  .card {
+    padding: 1em;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  #root {
+    padding: 1.5rem;
+  }
+
+  .logo {
+    height: 5em;
+    padding: 1.2em;
+  }
+
+  .card {
+    padding: 1.5em;
+  }
+}
+
+/* Media query for phone screens */
+@media (max-width: 480px) {
+  #root {
+    padding: 0.5rem;
+  }
+
+  .logo {
+    height: 3em;
+    padding: 0.75em;
+  }
+
+  .card {
+    padding: 0.75em;
+  }
+}
+
+/* Media query for phone screens - Enhanced content visibility */
+@media (max-width: 480px) {
+  body {
+    font-size: 22px; /* Further increased font size for better readability on phones */
+    line-height: 1.7; /* Improved line height for even better readability */
+  }
+
+  #root {
+    padding: 0.75rem; /* Increased padding for better spacing */
+  }
+
+  .logo {
+    height: 3.5em; /* Adjusted logo size for better balance */
+    padding: 1em; /* Adjusted logo padding */
+  }
+
+  .card {
+    padding: 1.25rem; /* Increased card padding for more noticeable content */
+  }
+
+  .read-the-docs {
+    font-size: 16px; /* Adjusted read-the-docs text size */
+  }
+}
+
+/* Media query for phone screens - Maximized content visibility */
+@media (max-width: 480px) {
+  body {
+    font-size: 26px; /* Even more increased font size for maximum readability on phones */
+    line-height: 2.0; /* Further improved line height for optimal readability */
+  }
+
+  #root {
+    padding: 1.5rem; /* Further increased padding for even better spacing */
+  }
+
+  .logo {
+    height: 4.5em; /* Slightly larger logo for better prominence */
+    padding: 1.5em; /* Adjusted logo padding */
+  }
+
+  .card {
+    padding: 2rem; /* Increased card padding for most noticeable content */
+  }
+
+  .read-the-docs {
+    font-size: 20px; /* Adjusted read-the-docs text size for better visibility */
+  }
+}
+
+/* Media query for very small phone screens */
+@media (max-width: 320px) {
+  body {
+    font-size: 16px; /* Further reduced font size for very small phones */
+  }
+
+  #root {
+    padding: 0.1rem; /* Minimal padding for tiny screens */
+  }
+
+  .logo {
+    height: 2em; /* Even smaller logo for tiny screens */
+    padding: 0.4em;
+  }
+
+  .card {
+    padding: 0.4rem; /* Minimal card padding for tiny screens */
+  }
+
+  .read-the-docs {
+    font-size: 10px; /* Even smaller read-the-docs text for tiny screens */
+  }
+}

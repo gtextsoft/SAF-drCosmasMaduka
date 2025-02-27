@@ -27,6 +27,10 @@ export default {
         warm: {
           gray: "#8E8E8E",
         },
+        cosmos: {
+          red: "#FF0000",
+          blue: "#000080",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",

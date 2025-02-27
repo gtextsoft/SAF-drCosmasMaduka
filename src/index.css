@@ -5,8 +5,8 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: #000080; /* cosmos-blue */
+    --foreground: #FF0000; /* cosmos-red */
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -72,6 +72,10 @@
     @apply border-border;
   }
   body {
-    @apply bg-[#F1F0FB] text-foreground;
+    @apply bg-cosmos-blue text-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-cosmos-blue;
   }
 }
