@@ -9,7 +9,9 @@ const navItems = [
   { id: 'events', label: 'Events', path: '/#events' },
   { id: 'contact', label: 'Contact', path: '/#contact' },
   { id: 'store', label: 'Store', path: '/store' },
+   { id: 'eventimages', label: 'Gallery', path: '/eventimage' },
   { id: 'booking', label: 'Book Coaching', path: '/booking' },
+ 
 ];
 
 const Navbar = () => {

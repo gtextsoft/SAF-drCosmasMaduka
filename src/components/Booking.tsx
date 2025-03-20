@@ -11,7 +11,7 @@ const Booking = () => {
             Book a Coaching Session with Dr. Cosmos
           </h2>
           <img
-            src="/public/DrCo.jpg"
+            src="/DrCo.jpg"
             alt="Coaching Session"
             className="mx-auto mb-8 rounded-lg shadow-lg"
           />
